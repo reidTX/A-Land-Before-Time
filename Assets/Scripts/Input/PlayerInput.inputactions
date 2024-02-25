@@ -6,15 +6,6 @@
             "id": "1d142236-0f3c-47cf-ab33-9b3f796a0ba5",
             "actions": [
                 {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "095044c1-ad8c-442f-af45-8d645ce995a8",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Interact",
                     "type": "Button",
                     "id": "f3a44c18-7ecd-4044-8206-5f563fdd9a35",
@@ -70,17 +61,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "2f228da7-9f7b-4d66-b1ea-3c4fe884407c",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "WASD",
                     "id": "5ebf7540-c4df-48ce-a9b0-3c7cb9686b98",

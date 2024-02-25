@@ -178,7 +178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d280a83e061aeb74992e917a592f47ff, type: 3}
       propertyPath: m_TagString
-      value: Spinosaurus
+      value: Dino
       objectReference: {fileID: 0}
     - target: {fileID: 1284477839218023461, guid: d280a83e061aeb74992e917a592f47ff, type: 3}
       propertyPath: m_Layer
@@ -290,6 +290,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d280a83e061aeb74992e917a592f47ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2488831975597949359}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d280a83e061aeb74992e917a592f47ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7705956746138264316}
   m_SourcePrefab: {fileID: 100100000, guid: d280a83e061aeb74992e917a592f47ff, type: 3}
 --- !u!1 &7444201334636163616 stripped
 GameObject:
@@ -332,3 +335,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   rotSpeed: 60
+--- !u!114 &-7705956746138264316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7444201334636163616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819f8b6dd89d2dd4581cc2cee6da4556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 25

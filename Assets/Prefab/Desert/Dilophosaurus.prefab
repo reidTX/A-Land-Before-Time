@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: edb758302e5c4774da7feaee277b7ce8, type: 3}
       propertyPath: m_TagString
-      value: Dilophosaurus
+      value: Dino
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: edb758302e5c4774da7feaee277b7ce8, type: 3}
       propertyPath: m_Controller

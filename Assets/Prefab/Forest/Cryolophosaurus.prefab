@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7d16e4fe5c92dd94592f26917d59c11c, type: 3}
       propertyPath: m_TagString
-      value: Cryolophosaurus
+      value: Dino
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 7d16e4fe5c92dd94592f26917d59c11c, type: 3}
       propertyPath: m_Controller
@@ -70,6 +70,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d16e4fe5c92dd94592f26917d59c11c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7469083171193590855}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d16e4fe5c92dd94592f26917d59c11c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6046522076655577219}
   m_SourcePrefab: {fileID: 100100000, guid: 7d16e4fe5c92dd94592f26917d59c11c, type: 3}
 --- !u!1 &8962816681019240482 stripped
 GameObject:
@@ -112,3 +115,16 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-6046522076655577219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8962816681019240482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819f8b6dd89d2dd4581cc2cee6da4556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 100

@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 087578c037a08b24bab8c0bb9a332417, type: 3}
       propertyPath: m_TagString
-      value: Deinocheirus
+      value: Dino
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 087578c037a08b24bab8c0bb9a332417, type: 3}
       propertyPath: m_Controller
@@ -70,6 +70,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 087578c037a08b24bab8c0bb9a332417, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7097056387487893283}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 087578c037a08b24bab8c0bb9a332417, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8660505734575600526}
   m_SourcePrefab: {fileID: 100100000, guid: 087578c037a08b24bab8c0bb9a332417, type: 3}
 --- !u!1 &2985326011935474671 stripped
 GameObject:
@@ -112,3 +115,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   rotSpeed: 100
+--- !u!114 &8660505734575600526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2985326011935474671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819f8b6dd89d2dd4581cc2cee6da4556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 50

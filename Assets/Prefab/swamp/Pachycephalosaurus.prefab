@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: df5b7945fb4eb36498bac776936b052d, type: 3}
       propertyPath: m_TagString
-      value: Pachycephalosaurus
+      value: Dino
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: df5b7945fb4eb36498bac776936b052d, type: 3}
       propertyPath: m_Controller
@@ -70,6 +70,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: df5b7945fb4eb36498bac776936b052d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2695324559267646361}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: df5b7945fb4eb36498bac776936b052d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2784287854762077944}
   m_SourcePrefab: {fileID: 100100000, guid: df5b7945fb4eb36498bac776936b052d, type: 3}
 --- !u!1 &5635412890714809899 stripped
 GameObject:
@@ -112,3 +115,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   rotSpeed: 100
+--- !u!114 &-2784287854762077944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5635412890714809899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819f8b6dd89d2dd4581cc2cee6da4556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 50

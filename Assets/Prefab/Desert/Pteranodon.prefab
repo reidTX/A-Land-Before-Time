@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b5b6d54dbe1f0d047b6ae6df17dbec52, type: 3}
       propertyPath: m_TagString
-      value: Pteranodon
+      value: Dino
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: b5b6d54dbe1f0d047b6ae6df17dbec52, type: 3}
       propertyPath: m_Controller
@@ -67,6 +67,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b5b6d54dbe1f0d047b6ae6df17dbec52, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5308127128125646062}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b5b6d54dbe1f0d047b6ae6df17dbec52, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2220409096194973363}
   m_SourcePrefab: {fileID: 100100000, guid: b5b6d54dbe1f0d047b6ae6df17dbec52, type: 3}
 --- !u!1 &5507886121767478325 stripped
 GameObject:
@@ -87,3 +90,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   rotSpeed: 100
+--- !u!114 &-2220409096194973363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5507886121767478325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819f8b6dd89d2dd4581cc2cee6da4556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 50

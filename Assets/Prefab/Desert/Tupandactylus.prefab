@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d8d93cfc94ad2b94bb095ae576453b13, type: 3}
       propertyPath: m_TagString
-      value: Tupandactylus
+      value: Dino
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: d8d93cfc94ad2b94bb095ae576453b13, type: 3}
       propertyPath: m_Controller
@@ -67,6 +67,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d8d93cfc94ad2b94bb095ae576453b13, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2551695891325075627}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d8d93cfc94ad2b94bb095ae576453b13, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3721335382474574126}
   m_SourcePrefab: {fileID: 100100000, guid: d8d93cfc94ad2b94bb095ae576453b13, type: 3}
 --- !u!1 &1163221646243168114 stripped
 GameObject:
@@ -87,3 +90,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   rotSpeed: 100
+--- !u!114 &-3721335382474574126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163221646243168114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819f8b6dd89d2dd4581cc2cee6da4556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 50

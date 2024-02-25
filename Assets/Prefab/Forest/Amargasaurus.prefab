@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5bb1847b6159017429456d6e7b0f874f, type: 3}
       propertyPath: m_TagString
-      value: Amargasaurus
+      value: Dino
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5bb1847b6159017429456d6e7b0f874f, type: 3}
       propertyPath: m_Controller
@@ -70,6 +70,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5bb1847b6159017429456d6e7b0f874f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3128429423324502173}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5bb1847b6159017429456d6e7b0f874f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8582014333052469632}
   m_SourcePrefab: {fileID: 100100000, guid: 5bb1847b6159017429456d6e7b0f874f, type: 3}
 --- !u!1 &3436412081811467420 stripped
 GameObject:
@@ -112,3 +115,16 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-8582014333052469632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436412081811467420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819f8b6dd89d2dd4581cc2cee6da4556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 100
